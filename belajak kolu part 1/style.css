@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color:orange;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container  {
+    background-color: white;
+    top:  10%;
+    left: 20%;
+    right: 20%;
+    bottom: 10%;
+    position: absolute;
+    border-radius: 1rem;
+    box-shadow: 0px 9px 47px -11px rgba(0,0,0,0.41);
+    -webkit-box-shadow: 0px 9px 47px -11px rgba(0,0,0,0.41);
+    -moz-box-shadow: 0px 9px 47px -11px rgba(0,0,0,0.41);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.navbar .kanan {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+
+
+/* --------------nabvarend--------- */
+
+/*-------content-------- */
+
+.konten{
+    display: flex;
+}
+
+.konten .kanan{
+    width: 50%;
+}
+
+.konten .kiri{
+    width: 50%;
+}
+
+.konten .kiri .card{
+    padding-left: 50px;
+
+
+
+}
+
+.konten .kiri .card img{
+    width: 300px;
+    height: 300px;
+}
+
+.konten .kiri .card .bottom{
+    display: flex;
+
+
+}
+
+.konten .kiri .card .bottom .kiri{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+
+}
+
+.konten .kiri .card .bottom .kanan{
+    width: 100px;
+    height: 50px;
+    background-color: orange;
+    justify-content: center;
+    display: flex;
+
+}
+
+.pkananjudul{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skills li {
+    margin-bottom: 5px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+.icons img {
+    width: 60px;
+}
+
+main{
+    margin-left: 50px;
+}
